@@ -1,0 +1,18 @@
+.THIS table { 
+    border-collapse: collapse; 
+    font-family: "Proxima Nova Soft";
+    border-style: inset;
+    border-width: 1px;
+}
+.THIS th, .THIS td { 
+    padding: 6px; 
+    border-style: inset;
+    border-width: 1px;
+}
+.THIS th { 
+    font-weight: 600; 
+}
+
+.THIS tbody tr:nth-child(even), .THIS thead tr {
+   background-color: #F0F1F2;
+}

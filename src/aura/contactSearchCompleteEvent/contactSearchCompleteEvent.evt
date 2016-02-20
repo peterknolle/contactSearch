@@ -1,0 +1,6 @@
+<aura:event type="APPLICATION" 
+            description="Component level event fired when a Contact search is completed">
+    <aura:attribute name="contacts" 
+                    type="Contact[]" 
+                    description="The result of the search, which could be an empty array"/>
+</aura:event>

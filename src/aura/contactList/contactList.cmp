@@ -1,0 +1,23 @@
+<aura:component >
+    <ltng:require styles="/resource/SLDS0121/assets/styles/salesforce-lightning-design-system-ltng.css"/>
+    
+    <aura:attribute name="contacts" type="Contact[]" description="The contacts to display"/>
+    <div class="slds">
+        <table class="slds-table--striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration items="{!v.contacts}" var="c">
+                    <tr>
+                        <td><ui:outputText value="{!c.Name}"/></td>
+                        <td><ui:outputEmail value="{!c.Email}"/></td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+    </div>
+</aura:component>

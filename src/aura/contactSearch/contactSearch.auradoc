@@ -1,0 +1,10 @@
+<aura:documentation>
+    <aura:description>Contact Search Documentation</aura:description>
+    <aura:example name="ContactSearch" ref="c:contactSearch" label="Contact Search">
+        This example shows how to instantiate a contactSearch component and
+        specify an event handler for its searchComplete component level event.
+        <pre>
+            &lt;c:contactSearch searchComplete="{!c.handleContactSearchComplete}"/&gt;
+        </pre>
+    </aura:example>
+</aura:documentation>
